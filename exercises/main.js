@@ -5,11 +5,11 @@ console.log(firstSection);
 firstSection.textContent = "Welcome to the Brittany blog";
 
 // Use JavaScript to obtain a reference to all article__header elements and change their classList property value to article__header important.
-let allSections = document.querySelectorAll (".article__header");
+let allSections = document.querySelectorAll(".article__header");
 console.log("headers list", allSections)
 
-for (let i = 0; i < Headers.length; i++) {
-    headers[i].classList.add("important");
+for (let i = 0; i < allSections.length; i++) {
+    allSections[i].classList.add("important");
 }
 
 //For loop needs to be added
